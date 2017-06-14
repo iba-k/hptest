@@ -131,19 +131,13 @@
 			#main {
 				width: 80vw;
 				height:45vw;
-				margin-left:auto;
-				margin-right:auto;
-				text-align:center;
-				//position:relative;
-				overflow:hidden;
-                //-webkit-overflow-scrolling:touch;
-			}
-			#navigation {
-				text-align:center;
-				margin-left:auto;
-				margin-right:auto;
-				width: 80vw;
-			}
+}			
+#navigation {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width: 80vw;
+}
 			#complementary {
 				clear: both;
 				width: 100vwx;
