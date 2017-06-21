@@ -39,8 +39,8 @@
         window.onresize = window_load;
         function window_load() {
           var Wsize,Hsize;
-          Wsize = document.body.main.clientWidth;
-          Hsize = document.body.main.clientHeight;
+          Wsize = document.getElementById("main").clientWidth;
+          Hsize = document.getElementById("main").clientHeight;
           var iframe = document.getElementById("iframe");
           iframe.width = Wsize;
           iframe.height = Hsize;
