@@ -1,0 +1,206 @@
+﻿@charset "UTF-8";
+
+
+       /*ハイパーリンク*/
+       a {text-decoration:none;}
+       a:link {color:#0F1927;}
+       a:visited{color:#00a5b4;} 
+       a:hover{color:#BFEAF8;} 
+       a:active{color:#FFFFFF;} 
+
+       /*グローバルナビ*/
+      .gnav{
+        //width:1008px; 
+        //height: 10px;  
+
+        margin-top:0px;
+	    margin-left:6vw;
+        margin-bottom:0px;
+        padding: 0px;
+        list-style:none;
+        font-family:Meiryo;
+      }
+      #header img{
+      width:100%;
+      }
+      
+      #main #onoffswitch{
+      position:absolute;
+      bottom:0%;
+      right:0%;
+      }
+      
+      #main #iframe{
+      
+      width:100%;
+      height:100%;
+      }
+      
+      .gnav a{
+        display:block;
+        //line-height:10px;
+        text-decoration:none;
+      }
+       .gnav a:link {color:#FFFFFF;}
+       .gnav a:visited{color:#00a5b4;} 
+       .gnav a:hover{color:#BFEAF8;} 
+       .gnav a:active{color:#FFFFFF;} 
+
+      .gnav li{
+        padding: 0px 0px 0px 10px;
+        display: inline-block;
+        color:#000000;
+        text-align:left;
+        //font-size:2vw;
+      }
+      .gnav pa{
+        padding: 0px 0px 0px 3px;
+        display: inline-block;
+        color:#FFFFFF;
+        text-align:left;
+        //font-size:2vw;
+      }
+
+       .picture_element {
+        padding:0.5%;
+        display: inline-block;
+	    vertical-align: bottom;
+	    max-width: 220px; 
+       }
+      
+      .top {
+        width:100%;
+        text-align:center;
+      }
+      
+
+      .hotel_box{
+      text-align:left;
+      width:100%;
+      border:4px double #ddd;
+      font-size:1.6vw;
+      
+      }
+       .content_wrapper{
+         margin-left:auto;
+	     margin-right:auto;
+         text-align:center;
+         width:100%;
+       }
+  
+       .tile{
+        display:inline-block;
+		//width: 20%;
+		border: 4px double #ddd;
+		margin:1%;
+        max-width:220px;
+        vertical-align:top;
+       }
+       .tile_head{
+        font-size:1em;
+        //white-space: nowrap;
+        margin-top:0.5vw;
+        margin-bottom:0.5vw;
+       }
+       .tile_text{
+        font-size:1.3vw;
+        //margin-top:0.5vw;
+        //margin-bottom:0.5vw;
+        text-align:left;
+       }
+
+
+   	body {
+	 margin: 0 auto;
+	 width: 100%;
+	}
+	img{
+	 max-width:100%
+	}
+	
+	    #header {
+	    background:#0F1927;
+    	    width:100vw;
+    	    display:block;
+    	    margin:0;
+    	    padding:0;
+    	    border:0;
+    	    font-size:1.6vw;
+    	    line-height:2.8em;
+			}
+			#main {
+				width: 80vw;
+				height:45vw;
+				margin-left:auto;
+				margin-right:auto;
+				text-align:center;
+				position:relative;
+				overflow:auto;
+                -webkit-overflow-scrolling:touch;
+			}
+			#navigation {
+				text-align:center;
+				margin-left:auto;
+				margin-right:auto;
+				width: 80vw;
+			}
+			#complementary {
+				clear: both;
+				width: 100vwx;
+			}
+
+   #information h2 {
+       font-family:Meiryo;
+	   text-align: center;
+    }
+
+    #information td span {
+       display:inline-block;
+       width:7em;
+       text-indent:0;
+    }
+
+    #information td a {
+       text-decoration:none;
+       color:#000;
+    }
+
+    #information td a:hover {
+       text-decoration:underline;
+       color:#AB0404;
+    }
+
+    #information table {
+       margin-left: auto;
+       margin-right: auto;
+       font-family:Meiryo;
+       width:85%;
+    }
+
+    .footer {
+       clear: both; border-top-color: rgb(0, 165, 180); border-top-width: 3px; border-top-style: solid; background-color: rgb(255, 255, 255); width:100%;
+    }
+    .footer_contents {
+       margin: 0px auto; text-align: center;
+    }
+    .footer p {
+       margin: 0px auto; font-size: 0.8vw;
+    }
+    .footer p a {
+       color: rgb(0, 165, 180);
+       font-size: 0.8vw; 
+    }
+    .footer p a:hover {
+       color: rgb(243, 152, 0);
+    }
+    .pref {
+       font-size: 0.8vw;
+       color: rgb(0, 154, 168);
+    }
+    .copyright {
+       color: rgb(255, 255, 255); letter-spacing: 2px; border-top-width: 2px; background-color: rgb(0, 165, 180);
+    }
+    .copyright p {
+       margin: 0px auto; width: 100vw; font-size: 0.8vw; text-align: center;
+    }
+    
